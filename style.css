@@ -1,28 +1,73 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+* {
     margin: 0;
     padding: 0;
 }
 
 /* header */
 
+header {
+    background-color: rgb(17, 17, 27);
+    padding: 10px;
+    border-bottom: 1px solid rgb(108, 112, 134);
+}
 
+h1 {
+    color: rgb(202, 158, 230);
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 50px;
+}
 
+/* main */
 
-/* main */ 
-
-main{
-    background-color: rgb(48, 52, 70);
+main {
+    background-color: rgb(30, 30, 46);
 }
 
 /* tabla */
 
-table{
+table {
     width: 100%;
+    border-collapse: collapse;
 }
 
-.nombre_cancion a{
+.nombre_cancion a {
     text-decoration: none;
     color: rgb(184, 192, 224);
+}
+
+th {
+    color: rgb(202, 211, 245);
+    border-bottom: 1px solid rgb(108, 112, 134);
+    padding: 5px;
+    font-size: 25px;
+}
+
+td {
+    color: rgb(184, 192, 224);
+    text-align: center;
+    border-bottom: 1px solid rgb(108, 112, 134);
+}
+
+tr {
+    transition: 750ms;
+}
+
+tr:hover {
+    transition: 500ms;
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 50, 68);
+    border-bottom: 1px solid rgb(148, 154, 185);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.portada:hover {
+    height: 125px;
+    width: 125px;
+    transition: 1s;
 }
 
 /* image */
@@ -31,23 +76,19 @@ table{
     border-radius: 5px;
     height: 45px;
     width: 45px;
+    transition: 250ms;
 }
 
-.icon{
+.icon {
     height: 25px;
     width: 25px;
 }
 
-/* texto */ 
+/*  footer */
 
-th{
-    color: rgb(202, 211, 245);
-}
-
-td{
+footer {
+    background-color: rgb(17, 17, 27);
     color: rgb(184, 192, 224);
     text-align: center;
+    padding: 10px;
 }
-
-
-/*  footer */
