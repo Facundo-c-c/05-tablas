@@ -14,10 +14,11 @@ header {
 }
 
 h1 {
-    color: rgb(202, 158, 230);
+    color: rgb(204, 163, 228);
     text-align: center;
     font-family: Rajdhani;
     font-size: 50px;
+    text-shadow: rgb(216, 174, 241) 1px 0 10px;
 }
 
 /* main */
